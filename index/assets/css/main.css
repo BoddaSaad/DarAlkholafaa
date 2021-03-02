@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+.nav-links > a img{margin:0 10px;width:45px}
+.nav-links > a{display:inline-flex;text-decoration:none;margin-left:5px;align-items:flex-end;justify-content:center}
+.link-label label{color:#7c7c7c;display:flex;font-size:13px}
+.link-label span{color:#2c3c42;font-weight:600}
+.link-label{display:inline-block}
+.navbar-brand img{width:180px}
+.search input{width:100%;border-radius:15px;border:0;outline:0;text-align:left;padding:0 10px;padding-left: 30px;}
+.search{width:640px;border-radius:15px;background:#fff!important;border:1px solid #eee;position: relative;}
+.search .btn{border-radius:10px;display:flex;align-items:center}
+.search > i{color:#c9c9c9;position:absolute;top:50%;left:15px;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);font-size:15px}
+.search .btn i{font-size:13px;margin-left:5px}
+.nav-links > a:last-child{align-items:center}
+.wishlist span{color:#da004a}
+.pagbar{background:#282e3a}
+.pagbar li{list-style:none;display:inline-block}
+.pagbar ul{margin:0;padding:0}
+.pagbar li a{text-decoration:none;color:#fff;font-weight:bold;border-left:2px solid #5e626b;padding-left:5px;font-size:17px}
+.pagbar li:last-child a{border:0}
+.pagbar .social{float:left}
+.pages{display:inline-block}
+.pagbar .social a{color:#fff;margin:0 5px}
+.navbar{background:#fff}
+.header img{width:100%}
+.nav-links{display:inline-flex}
+.navbar-brand{padding:0}
+body{background:#35a5d9;font-family:Tajawal}
+.website #svg1 img{width:100%;position:absolute;z-index:-1;top:-1}
+.book-thumb img{width:100%}
+.top-books{flex-direction:row-reverse;align-items:center}
+.book-body{border-right:2px solid #fff;padding-right:25px}
+.book-body p{color:#fff;font-size:20px}
+.book-body a{background:#1c2335;color:#fff;text-decoration:none;padding:5px 15px;border-radius:20px;font-size:20px;font-weight:bold;float:left}
+.website:before{background-image:url(../img/svg2.png);position:absolute;top:-100px;background-size:65px 200px;display:inline-block;width:65px;height:200px;content:"";background-repeat:no-repeat}
+.website{position:relative;padding-top:50px}
+.top-heading{display:flex;justify-content:center;position:relative;top:-20px;color:#fff;font-weight:bold}
+.top-heading:before,.top-heading:after{content:"";background-image:url(../img/dots.png);background-size:55px 5px;display:inline-block;width:55px;height:5px;background-repeat:no-repeat;position:absolute}
+.top-heading:before{right:30px}
+.top-heading:after{bottom:-20px}
+.books h2 a{text-decoration:none;color:#fff!important;background:#da004a;border-top-right-radius:10px;border-top-left-radius:10px;font-size:18px;padding:5px 10px;position:relative}
+.books h2 a:after{content:"";background-image:url(../img/svg3.svg);background-size:20px 15px;height:15px;width:20px;position:absolute;bottom:0;display:inline-block;left:-17px;background-repeat:no-repeat}
+.books h2{border-bottom:1px solid #fff;line-height:34px;position:relative}
+.books h2:after{content:"";background-image:url(../img/dots.png);background-size:55px 5px;display:inline-block;width:55px;height:5px;background-repeat:no-repeat;position:absolute;left:0;bottom:8px}
+.feed-thumb{width:100%}
+.books:last-child .feed-thumb:before{content:"جديد";color:da004a;font-weight:900;background:#fce03b;border-radius:20px;padding:0 15px;position:absolute;top:0;font-size:14px}
+.feed-thumb img{width:100%;border-radius:40px}
+.feed-body h4{font-weight:bold;color:#fff;padding:5px}
+.feed-body a{color:#fff;text-decoration:none}
+.feed-body .author{font-size:20px;font-weight:500}
+.feed-body .favorite img{width:20px}
+.feed-body .price{color:#fff;font-weight:bold;font-size:23px}
+.feed-body .price sub{font-weight:lighter;padding:0 5px}
+.feed-body .price strike{color:red}
+.feed-body .price strike span{color:#fff}
+.buy{background:#da004a;padding:2px 10px;border-radius:20px;font-weight:bold}
+.book:not(:last-child):after{background:#eee;content:"";width:1px;height:150px;position:absolute;left:0;top:30px}
+.book{position:relative;margin:10px 0}
+.books{margin-bottom:30px}
+.footer{background:#17212e;position:relative;padding: 15px 0}
+.footer .container{max-width:90%}
+.footed h3{color:#fff;border-bottom:1px solid;padding-bottom:5px;font-size:20px}
+.footed .FootedWidget:first-child h3{padding-top:40px}
+.FootedLogo{width:100%;border-bottom:1px solid #fff;padding-bottom:10px}
+.footed ul li{list-style:none;color:#fff;font-size:17px;display:flex;margin:5px 0}
+.footed ul{padding:0}
+.footed ul li i{font-size:25px;margin-left:5px}
+img.svg{width:100%;position:absolute;right:0;bottom:100%}
+#element1{width:100%;height:200px;background:#fff;position:absolute;bottom:100%;right:0;z-index:-1}
+.books:last-child *:not(.buy):not(strike){color:#17212e}
+.FootedWidget li .FootedNum{direction:ltr;font-weight:bold;font-size:19px}
+.footed ul li.FootedPoint{color:#b5b5b5}
+.FootedPoint:before{content:".";font-weight:bold;margin-left:10px}
+.FootedSearch{background:#252b31;padding:10px;border-radius:5px}
+.FootedSearch button{background:#464646;border:0;color:#fff;border-radius:5px;padding:10px;font-size:20px}
+.FootedSearch input{width:100%;background:#252b31;border:0;outline:0;color:#c0c0c0;padding-right:5px}
+.Copyrights{background:#252b31;padding:20px 0}
+.Copyrights span{color:#c0c0c0}
+.Copyrights img{width:40px;margin-right:5px;border-radius:50px}
+.SocialRights{text-align:center}
+.SocialRights a{color:#fff;font-size:30px;margin:0 5px}
+.Copyrights p{color:#a5a5a5;text-align:left;font-size:14px;margin:0}
+.Copyrights .container{max-width:95%}
+.footer:before{background-image:url(../img/svg2.png);position:absolute;top:-45px;background-size:50px 170px;display:inline-block;width:50px;height:170px;content:"";background-repeat:no-repeat;left:0;transform:rotate(180deg)}
+::-webkit-scrollbar{width:10px}
+::-webkit-scrollbar-track{background:#293848}
+::-webkit-scrollbar-thumb{background:#35a5d9;border-radius:50px;border:2px solid #293848}
+.navbar .container-fluid .row{width:100%}
+.navbar .container-fluid .row > div{display:flex;align-items:center}
+.navbar-brand{margin-right:15px}
+.nav-links{justify-content:center;margin-top:5px}
